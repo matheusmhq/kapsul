@@ -6,29 +6,29 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- ALL ICONS -->
-    <!-- <link
+    <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="img/icones/apple-touch-icon.png"
+      href="./img/fav/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="img/icones/favicon-32x32.png"
+      href="./img/fav/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="img/icones/favicon-16x16.png"
+      href="./img/fav/favicon-16x16.png"
     />
-    <link rel="manifest" href="img/icones/site.webmanifest" />
+    <link rel="manifest" href="./img/fav/site.webmanifest" />
     <link
       rel="mask-icon"
-      href="img/icones/safari-pinned-tab.svg"
-      color="#007b9e"
-    /> -->
+      href="./img/icones/safari-pinned-tab.svg"
+      color="#009bc7"
+    />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
     <meta name="author" content="Matheus Henrique - Mhq" />
@@ -98,7 +98,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="./img/logo/logo-color-2.png" />
+                    <img src="./img/logo/logo.png" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -111,6 +111,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Sobre</a>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#carpets">Tapetes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact-info">Contato</a>
+                </li>
                 </ul>
                 </div>
             </div>
@@ -126,8 +132,8 @@
         <section id="main-photo" >
             <div class="main-bg" >
             <div class="main-container-info position-relative">
-                <h2 class="main-title">Lorem Ipsum is simply dummy</h2>
-                <p class="main-subtitle">text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                <h2 class="main-title">A inovação em tapetes personalizados</h2>
+                <p class="main-subtitle">Soluções corporativas, qualidade e segurança</p>
                 <a class="btn-to-about wow fadeInDown infinite animated" href="#about">
                     <i class="fas fa-angle-double-down"></i>
                 </a>
@@ -139,11 +145,10 @@
                 <div class="col-12 col-lg-6">
                     <div class="about-container-left">
                         <div class="about-container-left-inside">
-                            <h2>Kapsul</h2>
-                            <p>Tapetes personalizados</p>
-                            <p>Lorem Ipsum is simply dummy </p>
-                            <p>
-                                text ever since the 1500s, when na
+                            <h2 class="about-title">Kapsul</h2>
+                            <p class="about-subtitle">Tapetes personalizados</p>
+                            <p class="about-text">
+                                Ever since the 1500s, when na
                                 unknown printer took a galley of 
                                 type and scrambled it to make a type
                                 specimen book. It has survived not only
@@ -157,11 +162,132 @@
                 </div>
             </div>
         </section>
+
+        <section id="our-carpet">
+          <div class="our-carpet-bg" >
+          <h3 class="section-title">Nosso tapete é</h3>
+
+          <div class="container-fluid d-flex flex-wrap">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col-12 col-md-4">
+                <div class="card">
+                  <div class="card-container-img">
+                    <img src="./img/our-carpet/item-1.jpg" class="card-img-top" alt="Confortável para andar">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center mb-0">Confortável <br/> para andar</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card">
+                  <div class="card-container-img">
+                    <img src="./img/our-carpet/item-2.jpg" class="card-img-top" alt="Facíl limpeza">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center mb-0">Facíl <br /> limpeza</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card">
+                  <div class="card-container-img">
+                    <img src="./img/our-carpet/item-3.jpg" class="card-img-top" alt="Antiderrapante">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center mb-0">Anti <br/> derrapante</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="budget">
+          <div class="container-fluid">
+            <p class="budget-title">Dúvidas? Orçamento?</p>
+            <p class="budget-subtitle">Mande sua mensagem</p>
+  
+            <div class="wow pulse infinite animated">
+              <a class="btn-primary-custom btn-whats" href="#">
+                <i class="fab fa-whatsapp me-2"></i>
+                Entrar em contato
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section id="carpets">
+          <div class="mx-3">
+            <h3 class="section-title">Tapetes</h3>
+            <div class="d-flex flex-wrap container-carpets">
+            </div>
+          </div>
+        </section>
+
+        <section id="contact-info">
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-4 mb-5 mb-sm-0">
+                  <div class="contact-info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Rua Foz do area - 447</p>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-4 mb-5 mb-sm-0">
+                  <div class="contact-info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                      <a class="d-block" href="#">
+                        +2 012 345 6789
+                      </a>
+                      <a class="d-block" href="#">
+                        +2 012 345 6789
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                  <div class="contact-info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>contato@kapsul.com.br</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.0148792715713!2d-51.90597338502555!3d-23.38767898476944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd10d3f819b71%3A0xd6642ee41fbf5b7a!2sR.%20Foz%20do%20Areia%2C%20447%20-%20Ebenezer%2C%20Maring%C3%A1%20-%20PR%2C%2087035-587!5e0!3m2!1spt-BR!2sbr!4v1615749166198!5m2!1spt-BR!2sbr" 
+          width="100%" 
+          height="400" 
+          allowfullscreen="" 
+          loading="lazy">
+          </iframe>
+        </section>
     </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between">
+          <p class="mb-0 copyright">© <span class="year"></span> Kapsul - Todos os direitos reservados</p>
+          <div class="d-flex container-social-media">
+            <a class="me-2" href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+      </div>
+      </div>
+    </footer>
 
    
 
-    <!-- ALL JS -->
+    <!-- All js -->
     <script
       type="text/javascript"
       src="./plugins/jquery/jquery-3.3.1.min.js"

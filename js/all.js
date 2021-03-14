@@ -1,4 +1,6 @@
 $(document).ready(function () {
+  $(".year").text(new Date().getFullYear());
+
   $(".navbar-nav li a").click(function () {
     $(".navbar-collapse").collapse("hide");
   });
@@ -67,5 +69,38 @@ $(document).ready(function () {
       },
       500
     );
+  });
+
+  var html = "";
+  for (var i = 1; i <= 16; i++) {
+    html += `
+      <div class="col-6 col-md-4 mb-5">
+          <div>
+            <a
+              href="img/carpets/item-${i}.webp"
+              data-lightbox="image-1"
+              data-title="tapete ${i}"
+              ><img
+                class="img-fluid"
+                src="img/carpets/item-${i}.webp"
+                alt="tapete ${i}"
+                title="tapete ${i}"
+            /></a>
+          </div>
+      </div>
+    `;
+  }
+  $(".container-carpets").append(html);
+
+  //Add bg black in menu mobile
+  $(".navbar-toggler").click(function () {
+    setTimeout(() => {
+      var has = $(".navbar-collapse").hasClass("show");
+      if (has) {
+        $(".navbar").addClass("navbar-bg");
+      } else {
+        $(".navbar").removeClass("navbar-bg");
+      }
+    }, 360);
   });
 });

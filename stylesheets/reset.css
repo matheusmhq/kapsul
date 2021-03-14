@@ -8,10 +8,23 @@
   src: url("../fonts/Aero.ttf");
 }
 
+@font-face {
+  font-family: "Revolution";
+  src: url("../fonts/REVOLUTION.ttf");
+}
+
 :root {
-  --brand_red: #6a0000;
+  --primary: #1187b7;
   --black: "black";
   --white: "white";
+  --brand_green: #25d366;
+  --darkest_gray: #333333;
+  --darker_gray: #666666;
+  --dark_gray: #999999;
+  --brand_gray: #c2c2c2;
+  --light_gray: #dddddd;
+  --lighter_gray: #eeeeee;
+  --lightest_gray: #f5f6f9;
 }
 
 * {
@@ -29,7 +42,6 @@ img {
 
 body {
   background: #ffffff;
-  height: 500vh;
 }
 
 .container-fluid {
@@ -37,7 +49,7 @@ body {
 }
 
 .btn-primary-custom {
-  background-color: var(--brand_red);
+  background-color: var(--primary);
   color: white;
   padding: 20px;
   border-radius: 6px;
@@ -49,7 +61,7 @@ body {
 }
 
 .menu-active {
-  color: var(--brand_red) !important;
+  color: var(--primary) !important;
 }
 
 /* button top */
@@ -74,8 +86,21 @@ body {
   opacity: 0.6;
 }
 
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-family: 'Aero';
+  color: var(--darkest_gray);
+}
+
 @media screen and (max-width: 767px) {
   .button-back-top {
     right: 14px;
   }
+
+  .section-title {
+    font-size: 30px;
+  }
 }
+
