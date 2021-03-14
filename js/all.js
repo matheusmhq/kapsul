@@ -1,4 +1,6 @@
 $(document).ready(function () {
+  new WOW().init();
+
   $(".year").text(new Date().getFullYear());
 
   $(".navbar-nav li a").click(function () {
