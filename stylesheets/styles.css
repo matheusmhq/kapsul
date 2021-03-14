@@ -133,15 +133,13 @@ header a:hover {
   }
 }
 
-
-
 @media screen and (max-width: 991px) {
   .about-title {
     font-size: 30px;
   }
   
   .about-subtitle {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
 
