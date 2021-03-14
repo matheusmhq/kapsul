@@ -86,12 +86,23 @@ body {
   opacity: 0.6;
 }
 
-.section-title {
+.section-header {
+  max-width: 1140px;
+  margin: 0 auto;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  margin-bottom: 10px;
   font-size: 50px;
   font-family: 'Aero';
   color: var(--darkest_gray);
+}
+
+.section-subtitle {
+  color: var(--dark_gray);
+  font-family: 'OldSansBlack';
 }
 
 @media screen and (max-width: 767px) {

@@ -23,6 +23,18 @@ header a:hover {
   background-color: black;
 }
 
+.li-dropdown ul {
+  background-color: black;
+}
+
+.li-dropdown ul a:hover {
+  background-color:var(--primary);
+}
+
+.li-dropdown ul a:focus {
+  background-color: black;
+}
+
 .main-bg {
   background-color: rgba(0, 0, 0, 0.9);
   width: 100%;

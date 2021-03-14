@@ -73,18 +73,19 @@ $(document).ready(function () {
     );
   });
 
+  // Painted
   var html = "";
-  for (var i = 1; i <= 16; i++) {
+  for (var i = 1; i <= 3; i++) {
     html += `
       <div class="col-6 col-md-4 mb-5">
           <div>
             <a
-              href="img/carpets/item-${i}.webp"
+              href="./img/carpets/painted/item-${i}.webp"
               data-lightbox="image-1"
               data-title="tapete ${i}"
               ><img
                 class="img-fluid"
-                src="img/carpets/item-${i}.webp"
+                src="./img/carpets/painted/item-${i}.webp"
                 alt="tapete ${i}"
                 title="tapete ${i}"
             /></a>
@@ -93,6 +94,72 @@ $(document).ready(function () {
     `;
   }
   $(".container-carpets").append(html);
+
+  // Vulcanized
+  var html_vulcanized = "";
+  for (var i = 1; i <= 5; i++) {
+    html_vulcanized += `
+      <div class="col-6 col-md-4 mb-5">
+          <div>
+            <a
+              href="img/carpets/vulcanized/item-${i}.webp"
+              data-lightbox="image-1"
+              data-title="tapete ${i}"
+              ><img
+                class="img-fluid"
+                src="img/carpets/vulcanized/item-${i}.webp"
+                alt="tapete ${i}"
+                title="tapete ${i}"
+            /></a>
+          </div>
+      </div>
+    `;
+  }
+  $(".container-carpets-vulcanized").append(html_vulcanized);
+
+  // Sign
+  var html_sign = "";
+  for (var i = 1; i <= 4; i++) {
+    html_sign += `
+        <div class="col-6 col-md-4 mb-5">
+            <div>
+              <a
+                href="img/carpets/sign/item-${i}.webp"
+                data-lightbox="image-1"
+                data-title="tapete ${i}"
+                ><img
+                  class="img-fluid"
+                  src="img/carpets/sign/item-${i}.webp"
+                  alt="tapete ${i}"
+                  title="tapete ${i}"
+              /></a>
+            </div>
+        </div>
+      `;
+  }
+  $(".container-carpets-sign").append(html_sign);
+
+  // High traffic
+  var html_high_traffic = "";
+  for (var i = 1; i <= 4; i++) {
+    html_high_traffic += `
+         <div class="col-6 col-md-4 mb-5">
+             <div>
+               <a
+                 href="img/carpets/high-traffic/item-${i}.webp"
+                 data-lightbox="image-1"
+                 data-title="tapete ${i}"
+                 ><img
+                   class="img-fluid"
+                   src="img/carpets/high-traffic/item-${i}.webp"
+                   alt="tapete ${i}"
+                   title="tapete ${i}"
+               /></a>
+             </div>
+         </div>
+       `;
+  }
+  $(".container-carpets-high-traffic").append(html_high_traffic);
 
   //Add bg black in menu mobile
   $(".navbar-toggler").click(function () {
