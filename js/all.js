@@ -81,7 +81,7 @@ $(document).ready(function () {
   var html = "";
   for (var i = 1; i <= 3; i++) {
     html += `
-      <div class="col-6 col-md-4 mb-5">
+      <div class="col-6 col-md-4 mb-5 wow fadeInUp">
           <div>
             <a
               href="./img/carpets/painted/item-${i}.webp"
@@ -103,7 +103,7 @@ $(document).ready(function () {
   var html_vulcanized = "";
   for (var i = 1; i <= 5; i++) {
     html_vulcanized += `
-      <div class="col-6 col-md-4 mb-5">
+      <div class="col-6 col-md-4 mb-5 wow fadeInUp">
           <div>
             <a
               href="img/carpets/vulcanized/item-${i}.webp"
@@ -125,7 +125,7 @@ $(document).ready(function () {
   var html_sign = "";
   for (var i = 1; i <= 4; i++) {
     html_sign += `
-        <div class="col-6 col-md-4 mb-5">
+        <div class="col-6 col-md-4 mb-5 wow fadeInUp">
             <div>
               <a
                 href="img/carpets/sign/item-${i}.webp"
@@ -147,7 +147,7 @@ $(document).ready(function () {
   var html_high_traffic = "";
   for (var i = 1; i <= 4; i++) {
     html_high_traffic += `
-         <div class="col-6 col-md-4 mb-5">
+         <div class="col-6 col-md-4 mb-5 wow fadeInUp">
              <div>
                <a
                  href="img/carpets/high-traffic/item-${i}.webp"
