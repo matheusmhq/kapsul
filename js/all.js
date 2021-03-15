@@ -107,7 +107,7 @@ $(document).ready(function () {
           <div>
             <a
               href="img/carpets/vulcanized/item-${i}.webp"
-              data-lightbox="image-1"
+              data-lightbox="image-2"
               data-title="tapete ${i}"
               ><img
                 class="img-fluid"
@@ -129,7 +129,7 @@ $(document).ready(function () {
             <div>
               <a
                 href="img/carpets/sign/item-${i}.webp"
-                data-lightbox="image-1"
+                data-lightbox="image-3"
                 data-title="tapete ${i}"
                 ><img
                   class="img-fluid"
@@ -151,7 +151,7 @@ $(document).ready(function () {
              <div>
                <a
                  href="img/carpets/high-traffic/item-${i}.webp"
-                 data-lightbox="image-1"
+                 data-lightbox="image-4"
                  data-title="tapete ${i}"
                  ><img
                    class="img-fluid"
