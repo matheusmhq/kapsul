@@ -84,12 +84,12 @@ $(document).ready(function () {
       <div class="col-6 col-md-4 mb-5 wow fadeInUp">
           <div>
             <a
-              href="./img/carpets/painted/item-${i}.webp"
+              href="./img/carpets/painted/item-${i}.jpg"
               data-lightbox="image-1"
               data-title="tapete ${i}"
               ><img
                 class="img-fluid"
-                src="./img/carpets/painted/item-${i}.webp"
+                src="./img/carpets/painted/item-${i}.jpg"
                 alt="tapete ${i}"
                 title="tapete ${i}"
             /></a>
@@ -106,12 +106,12 @@ $(document).ready(function () {
       <div class="col-6 col-md-4 mb-5 wow fadeInUp">
           <div>
             <a
-              href="img/carpets/vulcanized/item-${i}.webp"
+              href="img/carpets/vulcanized/item-${i}.jpg"
               data-lightbox="image-2"
               data-title="tapete ${i}"
               ><img
                 class="img-fluid"
-                src="img/carpets/vulcanized/item-${i}.webp"
+                src="img/carpets/vulcanized/item-${i}.jpg"
                 alt="tapete ${i}"
                 title="tapete ${i}"
             /></a>
@@ -128,12 +128,12 @@ $(document).ready(function () {
         <div class="col-6 col-md-4 mb-5 wow fadeInUp">
             <div>
               <a
-                href="img/carpets/sign/item-${i}.webp"
+                href="img/carpets/sign/item-${i}.jpg"
                 data-lightbox="image-3"
                 data-title="tapete ${i}"
                 ><img
                   class="img-fluid"
-                  src="img/carpets/sign/item-${i}.webp"
+                  src="img/carpets/sign/item-${i}.jpg"
                   alt="tapete ${i}"
                   title="tapete ${i}"
               /></a>
