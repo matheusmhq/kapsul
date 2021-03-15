@@ -150,12 +150,12 @@ $(document).ready(function () {
          <div class="col-6 col-md-4 mb-5 wow fadeInUp">
              <div>
                <a
-                 href="img/carpets/high-traffic/item-${i}.webp"
+                 href="img/carpets/high-traffic/item-${i}.jpg"
                  data-lightbox="image-4"
                  data-title="tapete ${i}"
                  ><img
                    class="img-fluid"
-                   src="img/carpets/high-traffic/item-${i}.webp"
+                   src="img/carpets/high-traffic/item-${i}.jpg"
                    alt="tapete ${i}"
                    title="tapete ${i}"
                /></a>
