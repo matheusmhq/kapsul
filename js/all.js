@@ -38,11 +38,14 @@ $(document).ready(function () {
         bottom = top + $(this).outerHeight();
 
       if (cur_pos >= top && cur_pos <= bottom) {
+        var id = $(this).attr("id");
         nav.find("a").removeClass("menu-active");
         sections.removeClass("menu-active");
-        nav
-          .find('a[href="#' + $(this).attr("id") + '"]')
-          .addClass("menu-active");
+        nav.find('a[href="#' + id + '"]').addClass("menu-active");
+
+        if (id.includes("carpets")) {
+          nav.find(".btn-carpets").addClass("menu-active");
+        }
       }
     });
   });
