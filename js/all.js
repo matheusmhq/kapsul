@@ -81,9 +81,53 @@ $(document).ready(function () {
   });
 
   // Painted
-  var html = "";
+  var html_painted = "";
   for (var i = 1; i <= 2; i++) {
-    html += `
+    html_painted += ` 
+          <div class="col-6 col-md-4 mb-5 wow fadeInUp text-center">
+              <div>
+                <a
+                  href="img/carpets/painted/item-${i}.jpg"
+                  data-lightbox="image-4"
+                  data-title="tapete ${i}"
+                  ><img
+                    class="img-fluid"
+                    src="img/carpets/painted/item-${i}.jpg"
+                    alt="tapete ${i}"
+                    title="tapete ${i}"
+                /></a>
+              </div>
+          </div>
+        `;
+  }
+  $(".container-carpets-painted").append(html_painted);
+
+  // Vulcanized
+  var html_vulcanized = "";
+  for (var i = 1; i <= 5; i++) {
+    html_vulcanized += `
+        <div class="col-6 col-md-4 mb-5 wow fadeInUp text-center">
+            <div>
+              <a
+                href="img/carpets/vulcanized/item-${i}.jpg"
+                data-lightbox="image-2"
+                data-title="tapete ${i}"
+                ><img
+                  class="img-fluid"
+                  src="img/carpets/vulcanized/item-${i}.jpg"
+                  alt="tapete ${i}"
+                  title="tapete ${i}"
+              /></a>
+            </div>
+        </div>
+      `;
+  }
+  $(".container-carpets-vulcanized").append(html_vulcanized);
+
+  // Sanitized
+  var html_sanitized = "";
+  for (var i = 1; i <= 2; i++) {
+    html_sanitized += `
       <div class="col-6 col-md-4 mb-5 wow fadeInUp text-center">
           <div>
             <a
@@ -100,73 +144,7 @@ $(document).ready(function () {
       </div>
     `;
   }
-  $(".container-carpets").append(html);
-
-  // Vulcanized
-  var html_vulcanized = "";
-  for (var i = 1; i <= 5; i++) {
-    html_vulcanized += `
-      <div class="col-6 col-md-4 mb-5 wow fadeInUp text-center">
-          <div>
-            <a
-              href="img/carpets/vulcanized/item-${i}.jpg"
-              data-lightbox="image-2"
-              data-title="tapete ${i}"
-              ><img
-                class="img-fluid"
-                src="img/carpets/vulcanized/item-${i}.jpg"
-                alt="tapete ${i}"
-                title="tapete ${i}"
-            /></a>
-          </div>
-      </div>
-    `;
-  }
-  $(".container-carpets-vulcanized").append(html_vulcanized);
-
-  // Sign
-  var html_sign = "";
-  for (var i = 1; i <= 4; i++) {
-    html_sign += `
-        <div class="col-6 col-md-4 mb-5 wow fadeInUp text-center">
-            <div>
-              <a
-                href="img/carpets/sign/item-${i}.jpg"
-                data-lightbox="image-3"
-                data-title="tapete ${i}"
-                ><img
-                  class="img-fluid"
-                  src="img/carpets/sign/item-${i}.jpg"
-                  alt="tapete ${i}"
-                  title="tapete ${i}"
-              /></a>
-            </div>
-        </div>
-      `;
-  }
-  $(".container-carpets-sign").append(html_sign);
-
-  // High traffic
-  var html_high_traffic = "";
-  for (var i = 1; i <= 4; i++) {
-    html_high_traffic += ` 
-         <div class="col-6 col-md-4 mb-5 wow fadeInUp text-center">
-             <div>
-               <a
-                 href="img/carpets/high-traffic/item-${i}.jpg"
-                 data-lightbox="image-4"
-                 data-title="tapete ${i}"
-                 ><img
-                   class="img-fluid"
-                   src="img/carpets/high-traffic/item-${i}.jpg"
-                   alt="tapete ${i}"
-                   title="tapete ${i}"
-               /></a>
-             </div>
-         </div>
-       `;
-  }
-  $(".container-carpets-high-traffic").append(html_high_traffic);
+  $(".container-carpets-sanitized").append(html_sanitized);
 
   //Add bg black in menu mobile
   $(".navbar-toggler").click(function () {
