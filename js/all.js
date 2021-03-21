@@ -82,7 +82,7 @@ $(document).ready(function () {
 
   // Painted
   var html_painted = "";
-  for (var i = 1; i <= 5; i++) {
+  for (var i = 1; i <= 8; i++) {
     html_painted += ` 
           <div class="col-6 col-md-4 mb-5 wow fadeInUp text-center">
               <div>
@@ -126,7 +126,7 @@ $(document).ready(function () {
 
   // Sanitized
   var html_sanitized = "";
-  for (var i = 1; i <= 2; i++) {
+  for (var i = 1; i <= 7; i++) {
     html_sanitized += `
       <div class="col-6 col-md-4 mb-5 wow fadeInUp text-center">
           <div>
