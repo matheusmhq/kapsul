@@ -82,7 +82,7 @@ $(document).ready(function () {
 
   // Painted
   var html_painted = "";
-  for (var i = 1; i <= 2; i++) {
+  for (var i = 1; i <= 5; i++) {
     html_painted += ` 
           <div class="col-6 col-md-4 mb-5 wow fadeInUp text-center">
               <div>
@@ -131,12 +131,12 @@ $(document).ready(function () {
       <div class="col-6 col-md-4 mb-5 wow fadeInUp text-center">
           <div>
             <a
-              href="./img/carpets/painted/item-${i}.jpg"
+              href="./img/carpets/sanitized/item-${i}.jpg"
               data-lightbox="image-1"
               data-title="tapete ${i}"
               ><img
                 class="img-fluid"
-                src="./img/carpets/painted/item-${i}.jpg"
+                src="./img/carpets/sanitized/item-${i}.jpg"
                 alt="tapete ${i}"
                 title="tapete ${i}"
             /></a>

@@ -96,22 +96,24 @@ body {
 .section-title {
   margin-bottom: 10px;
   font-size: 50px;
-  font-family: 'Aero';
+  font-family: "Aero";
   color: var(--darkest_gray);
 }
 
 .section-subtitle {
   color: var(--dark_gray);
-  font-family: 'OldSansBlack';
+  font-family: "OldSansBlack";
 }
 
 @media screen and (max-width: 767px) {
   .button-back-top {
+    width: 36px;
+    height: 36px;
     right: 14px;
+    bottom: 70px;
   }
 
   .section-title {
     font-size: 30px;
   }
 }
-
