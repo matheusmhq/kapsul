@@ -26,10 +26,6 @@ $(document).ready(function () {
     nav = $("nav"),
     header_height = $("header").height();
 
-  console.log("nav");
-  console.log(nav);
-  console.log("  header_height " + header_height);
-
   $(window).on("scroll", function () {
     var cur_pos = $(this).scrollTop();
 
